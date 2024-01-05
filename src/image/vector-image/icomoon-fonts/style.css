@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?s3phtx');
+  src:  url('fonts/icomoon.eot?s3phtx#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?s3phtx') format('truetype'),
+    url('fonts/icomoon.woff?s3phtx') format('woff'),
+    url('fonts/icomoon.svg?s3phtx#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dropdown:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-facebook:hover:before {
+  color: blue;
+  transform: scale(1.05);
+}
+.icon-scroll-down:before {
+  content: "\e902";
+  color: white;
+  font-size: 20px;
+}
+.icon-steam:before {
+  content: "\e903";
+  color: #ffb548;
+  font-size: 30px;
+}
+.icon-steam:hover:before {
+  color: white;
+}
+.icon-switch:before {
+  content: "\e904";
+  color: inherit;
+  font-size: inherit;
+}
+.icon-switch:hover:before {
+  color: darkslateblue;
+  transform: scale(1.05);
+}
+.icon-twitch:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-twitch:hover:before {
+  color: darkslateblue;
+  transform: scale(1.05);
+}
+.icon-twitter:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-twitter:hover:before {
+  content: "\e906";
+  color: #259dd4;
+}
+.icon-twitter-mes:before {
+  content: "\e907";
+  color: #fff;
+  opacity: 0.3;
+  font-size: 34px;
+}
+.icon-twitter-mes:hover:before {
+  opacity: 1;
+  transform: scale(1.03);
+  transition: all 0.2s linear;
+}
+.icon-xbox:before {
+  content: "\e908";
+  color: #ffb548;
+  font-size: 30px;
+}
+.icon-xbox:hover:before {
+  color: white;
+}
+.icon-youtube:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-youtube:hover:before {
+  content: "\e909";
+  color: #ff1313;
+  transform: scale(1.1);
+}
